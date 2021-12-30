@@ -22,3 +22,10 @@ Specialization: Accounting and audit, Bachelor's degree
 * JavaScript Manual on learnjavascript.ru
 * RS Schools "JavaScript/Front-end. Stage 0"
 
+### **SKILLS**
+HTML5, CSS3, JavaScript Basics, Git, GitHub, VSCode
+
+### **LANGUAGES**
+ ENGLISH - pre-intermediate  
+
+ RUSSIAN - native
