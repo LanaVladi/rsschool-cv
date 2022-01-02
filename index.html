@@ -11,34 +11,96 @@
 <body>
         <nav class="nav">
             <p>
-        <a href="/contacts/">CONTACTS</a> |
-        <a href="/about me/">ABOUT ME</a> |
-        <a href="/skills/">SKILLS</a> |
-        <a href="/education/">EDUCATION</a> |
-        <a href="/languages/">LANGUAGES</a>|
-        <a href="/courses/">COURSES</a>|
-        <a href="/code/">CODE</a>
+        <a href="#contacts">CONTACTS</a> |
+        <a href="#about me">ABOUT ME</a> |
+        <a href="#skills">SKILLS</a> |
+        <a href="#education">EDUCATION</a> |
+        <a href="#languages">LANGUAGES</a>|
+        <a href="#courses">COURSES</a>|
+        <a href="#code">CODE</a>
            </p>
       </nav>
 
       <header class="header">
+          <div class="container header-container">
         <img src="assets/img/img my photo.jpeg" alt="My photo" width="200" height="250">
           <h1>SVETLANA GORLOVA</h1>
+        </div>
       </header>
       
       <main>
-          <h2>CONTACTS</h2>
-          <ul class="contacts list">
-              <li>Location: Uzbekistan, Tashkent</li>
-              <li>Phone: +998 90 317 03 15</li>
-              <li>Email: lanavladi1605@gmail.com</li>
+          <div class="container main-container">  
+            <section class="section contacts" id="contacts">  
+                <h2 class="section title">CONTACTS</h2>  
+          <ul class="contacts list">  
+              <li>Location: Uzbekistan, Tashkent</li>  
+              <li>Phone: +998 90 317 03 15</li>  
+              <li>Email: lanavladi1605@gmail.com</li>  
               <li>GitHuB: LanaVladi</li>
-              <li>Discord: LanaVladi#2712</li>
-          </ul>
+              <li>Discord: LanaVladi#2712</li>  
+          </ul>  
+        </section>  
+
+<section class="section about me" id="about me">
+          <h2 class="section title">ABOUT ME</h2>
+          <p>
+            I am 32 y.o. Worked as a chief accountant. Now I'm studying front-end development at RSSchool.
+          </p>
+        </section>
+
+        <section class="section education" id="education">
+            <h2 class="section title">EDUCATION</h2>
+            <div> Institute of engineers of railway transport </div>
+            <div> Faculty of Economics </div>
+            <div> Accounting and audit, Bachelor's degree </div>
+        </section>
+
+        <section class="section courses" id="courses">
+            <h2 class="section title">COURSES</h2>
+            <ul class="courses-list">
+                <li class="courses-item">HTML and CSS on code-basics.com</li>
+                <li class="courses-item">JavaScript Manual on learnjavascript.ru</li>
+                <li class="courses-item">RS Schools "JavaScript/Front-end. Stage 0"</li>
+              </ul>
+        </section>
+
+        <section class="section skills" id="skills">
+            <h2 class="section title">SKILLS</h2>
+            <p>HTML5, CSS3, JavaScript Basics, Git, GitHub, VSCode</p>
+        </section>
+
+        <section class="section code" id="code">
+            <h2 class="section title">CODE</h2>
+            <code> 
+                <span> function multiply(a, b) {
+                return a * b;
+              }
+              </span>
+              </code>
+        </section>
+
+        <section class="section languages" id="languages">
+            <h2 class="section title">LANGUAGES</h2>
+            <div>ENGLISH - pre-intermediate</div>
+            <div>RUSSIAN - native</div>
+        </section>
+        </div>
 
       </main>
-    <footer>
-        <a href="https://rs.school/js/"></a>
+    <footer class="footer">
+        <div class="container footer-container"></div>
+            <a href="https://github.com/LanaVladi" class="github link">
+                My GitHub
+            </a>
+        </div>
+        <div>
+            &copy;2022
+        </div>
+        <div>
+        <a href="https://rs.school/js/" class="rss">
+
+        </a>
+    </div>
                 </footer>
 </body>
 </html>
