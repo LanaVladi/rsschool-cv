@@ -88,7 +88,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 15%;
 }
 
 .section {
@@ -106,6 +106,10 @@ body {
   text-transform: uppercase;
   letter-spacing: 8px;
   color: #565c57;
+}
+
+.cv-link {
+  color: black;
 }
 
 html {
