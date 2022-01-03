@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Lora';
+  src: url("assets/fonts/Lora-Italic-VariableFont_wght.ttf");  
+}
+
 head {
   display: none;
 }
@@ -6,63 +11,146 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 1000px;
+  min-width: 1000px;
   min-height: 100vh;
-  margin: 0;
+  margin: 0 auto;
+  width: 100%;
   padding: 0;
-  font-family: 'Lora', serif;
-  font-size: 18px;  
+  font-size: 15px;  
+  line-height: 1.5;
   color:black;
+  
 }
 
-@font-face {
-  font-family: 'Lora', serif;  
-   src: url("assets/fonts/Lora-Italic-VariableFont_wght.ttf");  
- }
+body {
+  display: block;
+}
 
  .header {
-  border: 1px solid red;
-
- }
-
- .main {
-  border: 1px solid red;
-
- }
+  display: block;
+}
  
 .nav {
   display: flex;   
   justify-content: center; 
-  font-family: 'Lora', serif; 
-  font-size: 15px;  
   font-weight: 100;
-  line-height: 30px;
-  background-color: cadetblue; 
-  }
+  background-color: rgb(136, 178, 179); 
+}
 
-  .nav-link {
-    position: relative;
-    padding: 0 5px;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 30px;
-    color: #fff;
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 15px;
+  line-height: 40px;
+  font-size: 16px; 
+  color: #fff;
+  transition: .3s;
+}
+
+.main {
+  margin-bottom: auto;
+  background-color: beige;
+}
+
+.profile-name {
+  letter-spacing: 5px;
+  text-align: center;
+  color: #565c57;
+}
+      
+.container {
+  max-width: 1000px;
+  min-height: 30px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.section {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px groove #fff;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #565c57;
 }
 
 html {
-    scroll-behavior: smooth; 
-  }
+  scroll-behavior: smooth; 
+}
 
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+  margin: 0px auto 0px auto;
+}
 
-.footer {
-      background-color: cadetblue;
-    }
+footer {
+  background-color: rgb(136, 178, 179);;
+}
 
-  .container {
-    max-width: 1440px;
-    margin: 0 auto;
+.footer-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  background-color: rgb(136, 178, 179);
+}
+
+.img-rss {
+  width: 80px;
+  height: 35px;
+}
+
+  .github-link {
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 16px; 
+    color: #fff;
+}
+
+.footer-year {
+  padding: 0 15px;
+  line-height: 40px;
+  font-size: 16px; 
+  font-style: initial;
+  color: #fff;
+}
+
+ @media (max-width: 768px) {
+  .section {
+    width: 100%;
   }
+}
