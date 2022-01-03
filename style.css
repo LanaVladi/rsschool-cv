@@ -1,17 +1,53 @@
+head {
+  display: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', serif;
+  font-size: 18px;  
+  color:black;
+}
+
 @font-face {
   font-family: 'Lora', serif;  
    src: url("assets/fonts/Lora-Italic-VariableFont_wght.ttf");  
  }
 
+ .header {
+  border: 1px solid red;
+
+ }
+
+ .main {
+  border: 1px solid red;
+
+ }
+ 
 .nav {
   display: flex;   
   justify-content: center; 
   font-family: 'Lora', serif; 
   font-size: 15px;  
-  color: antiquewhite; 
-  text-align: center;  
+  font-weight: 100;
+  line-height: 30px;
   background-color: cadetblue; 
   }
+
+  .nav-link {
+    position: relative;
+    padding: 0 5px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+}
 
 html {
     scroll-behavior: smooth; 
@@ -22,41 +58,11 @@ html {
     box-sizing: border-box;
   }
 
-body {
-    min-height: 100vh;  
-}
-
-.h1 {
-    font-weight: bolder;
-    }
-
-    .footer {
+.footer {
       background-color: cadetblue;
     }
 
-    body {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      min-height: 100vh;
-      margin: 0;
-      padding: 0;
-      font-family: 'Lora', serif;
-      font-size: 18px;  
-      color:black;
-  }
-  .container footer-container {
+  .container {
     max-width: 1440px;
     margin: 0 auto;
   }
-
-  .container main-container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-
-  .container header-container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-
