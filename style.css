@@ -3,6 +3,11 @@
   src: url("assets/fonts/Lora-Italic-VariableFont_wght.ttf");  
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0px auto 0px auto;
+}
+
 head {
   display: none;
 }
@@ -11,16 +16,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 1000px;
-  min-width: 1000px;
+  max-width: 1440px;
+  min-width: 1440px;
   min-height: 100vh;
-  margin: 0 auto;
   width: 100%;
   padding: 0;
-  font-size: 15px;  
+  font-size: 18px;  
   line-height: 1.5;
-  color:black;
-  
+  color:rgb(53, 36, 36);
+  background-color: rgb(247, 247, 233)
 }
 
 body {
@@ -49,8 +53,7 @@ body {
   padding: 0 15px;
   line-height: 40px;
   font-size: 16px; 
-  color: #fff;
-  transition: .3s;
+  color: aliceblue;
 }
 
 .main {
@@ -58,42 +61,56 @@ body {
   background-color: beige;
 }
 
-.profile-name {
-  letter-spacing: 5px;
-  text-align: center;
-  color: #565c57;
-}
-      
+
 .container {
-  max-width: 1000px;
+  max-width: 1440px;
   min-height: 30px;
+  margin: 0 auto;
 }
 
 .main-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: center;
 }
 
-.profile-title {
+.section-profile {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 200px 35px;
+}
+
+.section-profile-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   text-align: center;
+  width: 50%;
 }
 
 .profile-img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
+  border-radius: 45%;
+  height: auto;
+  width: 17%;
+  max-width: 100%;
+  object-fit: cover;
+  box-shadow: 0 1px 4px beige;
+  filter: brightness(1.05);
+}
+
+.profile-name {
+  font-size: 32px;
+  letter-spacing: 8px;
+  text-align: center;
+  color: #565c57;
 }
 
 .section {
   display: block;
-  width: 100%;
+  width: calc(50% - 20px);
   padding: 10px;
   padding-bottom: 10px;
   border-bottom: 1px groove #fff;
@@ -101,29 +118,24 @@ body {
 
 .section-title {
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 8px;
   color: #565c57;
+  width: 100%;
 }
 
 .cv-link {
-  color: black;
+  color: rgb(53, 36, 36);
 }
 
 html {
   scroll-behavior: smooth; 
 }
 
-
-* {
-  box-sizing: border-box;
-  margin: 0px auto 0px auto;
-}
-
 footer {
-  background-color: rgb(136, 178, 179);;
+  background-color: rgb(136, 178, 179);
 }
 
 .footer-container {
@@ -141,16 +153,16 @@ footer {
   .github-link {
     padding: 0 15px;
     line-height: 40px;
-    font-size: 16px; 
-    color: #fff;
+    font-size: 20px; 
+    color: aliceblue;
 }
 
 .footer-year {
   padding: 0 15px;
   line-height: 40px;
-  font-size: 16px; 
+  font-size: 20px; 
   font-style: initial;
-  color: #fff;
+  color: aliceblue;
 }
 
  @media (max-width: 768px) {
