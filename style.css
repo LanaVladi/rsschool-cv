@@ -126,8 +126,18 @@ body {
   width: 100%;
 }
 
+.contacts-item a {
+  color:rgb(53, 36, 36);
+  text-decoration: none;
+}
+
 .cv-link {
   color: rgb(53, 36, 36);
+  text-decoration: none;
+}
+
+.cv-link:hover {
+ text-decoration: underline; 
 }
 
 html {
