@@ -112,9 +112,9 @@
                     function maxTriSum(numbers) {
                         const newSet = new Set(numbers);
                         const arr = [...newSet];
-                        return arr.sort((a, b) => b - a)
+                        return arr.sort((a, b) =&gt b - a)
                         .slice(0, 3)
-                        .reduce((a, b) => a + b);
+                        .reduce((a, b) =&gt a + b);
                     }
             </pre>
             </section>
