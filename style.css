@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Lora';
-  src: url("assets/fonts/Lora-Italic-VariableFont_wght.ttf");  
+  src: url("assets/fonts/Lora-Italic-VariableFont_wght.ttf");
 }
 
 * {
@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
   width: 100%;
   padding: 0;
-  font-size: 18px;  
+  font-size: 18px;
   line-height: 1.5;
   color:rgb(53, 36, 36);
   background-color: rgb(247, 247, 233)
@@ -34,12 +34,12 @@ body {
  .header {
   display: block;
 }
- 
+
 .nav {
-  display: flex;   
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   font-weight: 100;
-  background-color: rgb(136, 178, 179); 
+  background-color: rgb(136, 178, 179);
 }
 
 .nav-list {
@@ -52,7 +52,7 @@ body {
 .nav-link {
   padding: 0 15px;
   line-height: 40px;
-  font-size: 16px; 
+  font-size: 16px;
   color: aliceblue;
 }
 
@@ -126,22 +126,27 @@ body {
   width: 100%;
 }
 
+.code-example {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .contacts-item a {
   color:rgb(53, 36, 36);
   text-decoration: none;
 }
 
-.cv-link {
+.work-link {
   color: rgb(53, 36, 36);
   text-decoration: none;
 }
 
 .cv-link:hover {
- text-decoration: underline; 
+ text-decoration: underline;
 }
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 footer {
@@ -150,7 +155,7 @@ footer {
 
 .footer-container {
   display: flex;
-  justify-content: space-around; 
+  justify-content: space-around;
   align-items: center;
   background-color: rgb(136, 178, 179);
 }
@@ -163,14 +168,14 @@ footer {
   .github-link {
     padding: 0 15px;
     line-height: 40px;
-    font-size: 20px; 
+    font-size: 20px;
     color: aliceblue;
 }
 
 .footer-year {
   padding: 0 15px;
   line-height: 40px;
-  font-size: 20px; 
+  font-size: 20px;
   font-style: initial;
   color: aliceblue;
 }
